@@ -6,11 +6,11 @@ You	will	read	a	directed	graph	from	a	text	file.	Below	is	an	example:
 Graph1.txt	
 ```
 5	
-0	 1	0.2	    3 	10.1	  4	 0.5	 -1	
-1	 0	1.5	   -1	
-2	 1	100.0	  3 	50.2	 -1	
-3	-1	
-4	 1	10.5  	2	  13.9	 -1
+0	1	0.2 3 10.1 4 0.5 -1	
+1	0 1.5	-1	
+2	1 100.0	3 50.2 -1	
+3	-1
+4	1 10.5 2 13.9 -1
 ```
 The	first	line	is	the	number	of	vertices N (=	5	in	this	example).	Each	vertex	is	represented	by	an	
 integer	from	0 to N − 1.	
@@ -31,4 +31,4 @@ The	program	should	uses	Dijkstra’s	Algorithm	to	find	the	shortest	paths	from	a
 vertices	in the	graph	file. The	program	should	then	continuously	prompt	the	user	to	specify	a	target	
 vertex.	It	will	then	print	the	sequence	of	vertices	along	the	shortest	path	from	the	starting	vertex	to	the	
 target	vertex	as	well	as	the	total	cost	of	the	path.
-As	always,	your	code	should	be	able	to	compile	via	“make	all”.
+
