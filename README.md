@@ -6,11 +6,11 @@ You	will	read	a	directed	graph	from	a	text	file.	Below	is	an	example:
 Graph1.txt	
 ```
 5	
-0	1	0.2	3	10.1	4	0.5	-1	
-1	0	1.5	-1	
-2	1	100.0	3	50.2	-1	
+0	 1	0.2	    3 	10.1	  4	 0.5	 -1	
+1	 0	1.5	   -1	
+2	 1	100.0	  3 	50.2	 -1	
 3	-1	
-4	1	10.5	2	13.9	-1
+4	 1	10.5  	2	  13.9	 -1
 ```
 The	first	line	is	the	number	of	vertices N (=	5	in	this	example).	Each	vertex	is	represented	by	an	
 integer	from	0 to N − 1.	
